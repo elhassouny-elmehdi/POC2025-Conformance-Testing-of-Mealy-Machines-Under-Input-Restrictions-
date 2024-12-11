@@ -1,0 +1,17 @@
+digraph {
+	rankdir=LR
+	"s,a" [color=red fillcolor=lightblue shape=circle style=filled]
+	"s,b" [fillcolor=lightblue shape=circle style=filled]
+	"s,c" [fillcolor=lightblue shape=circle style=filled]
+	"t,a" [fillcolor=lightblue shape=circle style=filled]
+	"t,b" [fillcolor=lightblue shape=circle style=filled]
+	"t,c" [fillcolor=lightblue shape=circle style=filled]
+	"s,a" -> "t,b" [label="1/1"]
+	"s,a" -> "t,c" [label="0/1, 1/1"]
+	"s,b" -> "t,c" [label="1/1"]
+	"s,c" -> "t,a" [label="1/1"]
+	"t,a" -> "s,b" [label="1/1"]
+	"t,a" -> "s,c" [label="0/1, 1/1"]
+	"t,b" -> "s,c" [label="1/1"]
+	"t,c" -> "s,a" [label="1/1"]
+}

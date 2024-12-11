@@ -1,0 +1,42 @@
+<Automaton>
+  <State id="q0" name="q0" />
+  <State id="q1" name="q1" />
+  <State id="q2" name="q2" />
+  <State id="q3" name="q3" />
+  <State id="q4" name="q4" />
+  <State id="q5" name="q5" />
+  <State id="q6" name="q6" />
+  <State id="q7" name="q7" />
+  <State id="q8" name="q8" />
+  <State id="q9" name="q9" />
+  <Transition source="q0" destination="q1" label="x/0" />
+  <Transition source="q0" destination="q2" label="y/0" />
+  <Transition source="q0" destination="q3" label="z/0" />
+  <Transition source="q1" destination="q2" label="x/1" />
+  <Transition source="q1" destination="q3" label="y/1" />
+  <Transition source="q1" destination="q4" label="z/1" />
+  <Transition source="q2" destination="q3" label="x/2" />
+  <Transition source="q2" destination="q4" label="y/2" />
+  <Transition source="q2" destination="q5" label="z/2" />
+  <Transition source="q3" destination="q4" label="x/3" />
+  <Transition source="q3" destination="q5" label="y/3" />
+  <Transition source="q3" destination="q6" label="z/3" />
+  <Transition source="q4" destination="q5" label="x/4" />
+  <Transition source="q4" destination="q6" label="y/4" />
+  <Transition source="q4" destination="q7" label="z/4" />
+  <Transition source="q5" destination="q6" label="x/5" />
+  <Transition source="q5" destination="q7" label="y/5" />
+  <Transition source="q5" destination="q8" label="z/5" />
+  <Transition source="q6" destination="q7" label="x/6" />
+  <Transition source="q6" destination="q8" label="y/6" />
+  <Transition source="q6" destination="q9" label="z/6" />
+  <Transition source="q7" destination="q8" label="x/7" />
+  <Transition source="q7" destination="q9" label="y/7" />
+  <Transition source="q7" destination="q0" label="z/7" />
+  <Transition source="q8" destination="q9" label="x/8" />
+  <Transition source="q8" destination="q0" label="y/8" />
+  <Transition source="q8" destination="q1" label="z/8" />
+  <Transition source="q9" destination="q0" label="x/9" />
+  <Transition source="q9" destination="q1" label="y/9" />
+  <Transition source="q9" destination="q2" label="z/9" />
+</Automaton>

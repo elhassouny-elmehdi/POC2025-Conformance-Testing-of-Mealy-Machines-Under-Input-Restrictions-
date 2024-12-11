@@ -1,0 +1,10 @@
+digraph {
+	q0 [color=red fillcolor=lightgrey style=filled]
+	q1
+	q2
+	q3
+	q0 -> q1 [label="a/x"]
+	q1 -> q2 [label="b/y"]
+	q2 -> q3 [label="c/z"]
+	q3 -> q0 [label="d/w"]
+}

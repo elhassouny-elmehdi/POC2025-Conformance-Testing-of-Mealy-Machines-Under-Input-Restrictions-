@@ -1,0 +1,21 @@
+<MealyMachine>
+    <States>
+        <State id="S0" />
+        <State id="S1" />
+        <State id="S2" />
+        <State id="S3" />
+        <State id="S4" />
+    </States>
+    <Transitions>
+        <Transition source="S0" destination="S1" label="a/0" />
+        <Transition source="S0" destination="S2" label="b/1" />
+        <Transition source="S1" destination="S3" label="a/1" />
+        <Transition source="S1" destination="S4" label="b/0" />
+        <Transition source="S2" destination="S3" label="a/0" />
+        <Transition source="S2" destination="S4" label="b/1" />
+        <Transition source="S3" destination="S0" label="a/0" />
+        <Transition source="S3" destination="S1" label="b/1" />
+        <Transition source="S4" destination="S2" label="a/1" />
+        <Transition source="S4" destination="S0" label="b/0" />
+    </Transitions>
+</MealyMachine>

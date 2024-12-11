@@ -1,0 +1,9 @@
+digraph {
+	a -> b [label="x, y"]
+	a -> c [label=x]
+	b -> c [label=z]
+	c -> a [label=x]
+	c -> b [label=y]
+	a [color=red fillcolor=lightgrey style=filled]
+	c [color=green shape=doublecircle]
+}

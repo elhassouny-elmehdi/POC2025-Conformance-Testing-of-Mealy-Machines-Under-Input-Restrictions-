@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<NFA>
+  <States>
+    <State id="a" isStart="true" isAccept="false"/>
+    <State id="b" isStart="false" isAccept="false"/>
+    <State id="c" isStart="false" isAccept="false"/>
+  </States>
+  <Transitions>
+    <Transition src="a" dest="a" symbol="1"/>
+    <Transition src="a" dest="c" symbol="0,1"/>
+    <Transition src="b" dest="c" symbol="1"/>
+    <Transition src="c" dest="b" symbol="1"/>
+  </Transitions>
+</NFA>

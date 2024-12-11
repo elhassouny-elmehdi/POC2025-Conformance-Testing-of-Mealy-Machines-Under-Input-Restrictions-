@@ -1,0 +1,7 @@
+digraph {
+	a -> b [label="x/1"]
+	a -> c [label="y/0, z/1"]
+	b -> c [label="x/1, y/1, z/1"]
+	c -> a [label="x/1, y/1, z/1"]
+	a [color=red fillcolor=lightgrey style=filled]
+}

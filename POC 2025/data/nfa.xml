@@ -1,0 +1,17 @@
+<NFA>
+    <States>
+        <State id="S0" isStart="true" />
+        <State id="S1" isAccept="true" />
+        <State id="S2" />
+        <State id="S3" />
+        <State id="S4" />
+    </States>
+    <Transitions>
+        <Transition src="S0" dest="S1" symbol="a" />
+        <Transition src="S0" dest="S2" symbol="b" />
+        <Transition src="S1" dest="S3" symbol="a" />
+        <Transition src="S2" dest="S4" symbol="b" />
+        <Transition src="S3" dest="S0" symbol="a" />
+        <Transition src="S4" dest="S1" symbol="b" />
+    </Transitions>
+</NFA>

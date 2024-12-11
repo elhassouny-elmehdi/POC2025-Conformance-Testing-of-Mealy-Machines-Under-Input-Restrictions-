@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<NFA>
+  <States>
+    <State id="s0" isStart="true" isAccept="false"/>
+    <State id="s1" isStart="false" isAccept="false"/>
+    <State id="s2" isStart="false" isAccept="false"/>
+    <State id="s3" isStart="false" isAccept="false"/>
+    <State id="s4" isStart="false" isAccept="false"/>
+    <State id="s5" isStart="false" isAccept="false"/>
+    <State id="s6" isStart="false" isAccept="false"/>
+    <State id="s7" isStart="false" isAccept="false"/>
+    <State id="s8" isStart="false" isAccept="false"/>
+    <State id="s9" isStart="false" isAccept="true"/>
+  </States>
+  <Transitions>
+    <Transition src="s0" dest="s0" symbol="0"/>
+    <Transition src="s0" dest="s1" symbol="1"/>
+    <Transition src="s1" dest="s1" symbol="0"/>
+    <Transition src="s1" dest="s2" symbol="1"/>
+    <Transition src="s2" dest="s2" symbol="0"/>
+    <Transition src="s2" dest="s3" symbol="1"/>
+    <Transition src="s3" dest="s3" symbol="0"/>
+    <Transition src="s3" dest="s4" symbol="1"/>
+    <Transition src="s4" dest="s4" symbol="0"/>
+    <Transition src="s4" dest="s5" symbol="1"/>
+    <Transition src="s5" dest="s5" symbol="0"/>
+    <Transition src="s5" dest="s6" symbol="1"/>
+    <Transition src="s6" dest="s6" symbol="0"/>
+    <Transition src="s6" dest="s7" symbol="1"/>
+    <Transition src="s7" dest="s7" symbol="0"/>
+    <Transition src="s7" dest="s8" symbol="1"/>
+    <Transition src="s8" dest="s8" symbol="0"/>
+    <Transition src="s8" dest="s9" symbol="1"/>
+    <Transition src="s9" dest="s9" symbol="0"/>
+  </Transitions>
+</NFA>
